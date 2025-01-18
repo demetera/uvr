@@ -202,7 +202,10 @@ Setting up a virtual environment (venv) ensures that the program's dependencies 
 
 4. **Install dependencies in the virtual environment:**
    ```bash
+   pip install scikit-learn
    pip install -r requirements.txt
+   chmod +x install_packages.sh
+   ./install_packages
    ```
 
 ---
