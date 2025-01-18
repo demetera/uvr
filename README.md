@@ -206,6 +206,7 @@ Setting up a virtual environment (venv) ensures that the program's dependencies 
    pip install -r requirements.txt
    chmod +x install_packages.sh
    ./install_packages
+   pip install pygobject
    ```
 
 ---
